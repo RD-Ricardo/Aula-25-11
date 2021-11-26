@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #18181a;
+}
+
+form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #242527;
+    padding: 50px;
+    border-radius: 10%;
+}
+
+form > input{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0px;
+}
+
+
+form > label {
+    color: rgb(185, 185, 185);
+}
+
+.btn{
+    background-color: blue;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.messagem{
+    color: white;
+}
+.title{
+    color: white;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.border{
+    width: 230px;
+    height: 5px;
+    background-color: blue;
+    margin-bottom: 23px;
+    margin-top: 8px;
+}
